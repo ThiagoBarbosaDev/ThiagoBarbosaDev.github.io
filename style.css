@@ -1,0 +1,76 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #fefae0;
+    font-family: "Montserrat", sans-serif;
+}
+
+header {
+    margin: 2em 0;
+    display: flex;
+    justify-content: center;
+}
+
+.texto-container {
+
+}
+
+h1 {
+    margin-bottom: 0;
+    margin-top: 2em;
+}
+
+h2{
+    margin-top: 0;
+}
+
+p {
+    text-align: left;
+}
+
+main {
+    text-align: center;
+    margin: 0 2em;
+}
+
+#foto   {
+    border-radius: 50%;
+    float: left;
+    height: 300px;
+    width: 300px;
+}
+
+.hard-skills-container {
+    display: flex;
+    flex-wrap: wrap;
+    clear: both;
+}
+
+.hard-skills-container p {
+    text-align: center;
+}
+
+.hard-skills {
+    background-color: #faedcd;
+    width: 360px;
+    display: flex;
+    flex-direction: column;
+    line-height: 2em;
+    margin: auto;
+    border-radius: 50px;
+}
+
+.hard-skills
+ul {
+    padding: 0;
+}
+
+.hard-skills
+ul
+li {
+    font-family: "roboto-mono", monospace;
+    display: flex;
+    justify-content: center;
+}
