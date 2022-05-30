@@ -1,0 +1,16 @@
+.selected {
+  background-color: gray;
+  border-radius: 15px;
+  padding-left: 20px;
+  padding-right: 20px;
+  color: white;
+  max-width: 80%;
+}
+
+.selected::marker {
+  color: black;
+}
+
+.completed {
+  text-decoration: line-through solid black;
+}
